@@ -1,0 +1,47 @@
+{
+  "mcpServers": {
+    "semantic-scholar": {
+      "command": "python",
+      "args": [
+        "/Users/zimo_mbp16_m1max/Projects/DripTeller/semanticscholar-MCP-Server/.venv/bin/python",
+        "/Users/zimo_mbp16_m1max/Projects/DripTeller/semanticscholar-MCP-Server/semantic_scholar_server.py"
+      ],
+      "env": {
+        "SEMANTIC_SCHOLAR_API_KEY": "YOUR_SEMANTIC_SCHOLAR_API_KEY_HERE"
+      }
+    },
+    "perplexity-deep-research": {
+      "command": "python",
+      "args": [
+        "/Users/zimo_mbp16_m1max/Projects/DripTeller/perplexity-mcp/.venv/bin/python",
+        "-m",
+        "perplexity_mcp.server"
+      ],
+      "env": {
+        "PERPLEXITY_API_KEY": "YOUR_PERPLEXITY_API_KEY_HERE",
+        "PERPLEXITY_MODEL": "sonar-deep-research"
+      }
+    },
+    "academic-search": {
+      "command": "python",
+      "args": [
+        "/Users/zimo_mbp16_m1max/Projects/DripTeller/academic-search-mcp-server/.venv/bin/python",
+        "/Users/zimo_mbp16_m1max/Projects/DripTeller/academic-search-mcp-server/server.py"
+      ]
+    },
+    "omnisearch": {
+      "command": "node",
+      "args": [
+        "/Users/zimo_mbp16_m1max/Projects/DripTeller/mcp-omnisearch/dist/index.js"
+      ],
+      "env": {
+        "TAVILY_API_KEY": "YOUR_TAVILY_API_KEY_HERE",
+        "PERPLEXITY_API_KEY": "YOUR_PERPLEXITY_API_KEY_HERE",
+        "BRAVE_SEARCH_API_KEY": "YOUR_BRAVE_API_KEY_HERE",
+        "KAGI_API_KEY": "YOUR_KAGI_API_KEY_HERE",
+        "JINA_API_KEY": "YOUR_JINA_API_KEY_HERE",
+        "FIRECRAWL_API_KEY": "YOUR_FIRECRAWL_API_KEY_HERE"
+      }
+    }
+  }
+}
