@@ -1,5 +1,17 @@
 # 🔑 DripTeller 프로젝트 API 키 설정 가이드
 
+## 🚨 보안 주의사항
+
+**중요**: API 키를 절대 Git에 커밋하지 마세요!
+- 모든 API 키는 `.env.local` 파일에 저장하세요
+- `.env.local` 파일은 이미 `.gitignore`에 포함되어 있습니다
+- `claude_desktop_config.json` 파일도 실제 API 키가 포함된 경우 커밋하지 마세요
+
+### 보안 사고 발생 시
+1. 즉시 노출된 API 키를 무효화하고 재발급하세요
+2. Git 히스토리에서 민감한 정보를 제거하세요 (BFG Repo-Cleaner 사용)
+3. 모든 API 키를 `.env.local`로 이동하세요
+
 ## 필수 API 키 목록
 
 ### 1. Perplexity API
@@ -68,3 +80,31 @@
 - 위 무료 서비스들
 
 이 조합으로도 충분히 강력한 시장 조사가 가능합니다!
+
+## API 키 설정 방법
+
+### 1. `.env.local` 파일 생성
+프로젝트 루트에 `.env.local` 파일을 생성하고 다음 형식으로 API 키를 추가하세요:
+
+```bash
+# Semantic Scholar API
+SEMANTIC_SCHOLAR_API_KEY=your_actual_api_key_here
+
+# Perplexity API
+PERPLEXITY_API_KEY=your_actual_api_key_here
+
+# Omnisearch APIs
+TAVILY_API_KEY=your_actual_api_key_here
+BRAVE_SEARCH_API_KEY=your_actual_api_key_here
+KAGI_API_KEY=your_actual_api_key_here
+JINA_API_KEY=your_actual_api_key_here
+FIRECRAWL_API_KEY=your_actual_api_key_here
+```
+
+### 2. Claude Desktop 설정
+`claude_desktop_config.json` 파일의 API 키는 플레이스홀더로 유지하고, 실제 키는 `.env.local`에만 저장하세요.
+
+### 3. 보안 확인
+- `git status`로 `.env.local`이 추적되지 않는지 확인
+- `claude_desktop_config.json`에 실제 API 키가 없는지 확인
+- 커밋 전 항상 민감한 정보가 포함되지 않았는지 검토
