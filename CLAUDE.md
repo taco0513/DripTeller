@@ -8,7 +8,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - **DripTeller** - 최종 선정 (2025-07-23)
 - 드립커피 + 스토리텔링의 결합으로 메시지 카드 컨셉과 완벽 부합
 
-This is a premium drip coffee brand that combines high-quality coffee with storytelling through message cards inside each drip bag. The concept leverages "gacha psychology" to create anticipation and engagement with customers.
+This is a premium drip coffee brand that combines high-quality coffee with storytelling through message cards inside each drip bag. The concept leverages "뽑기 psychology" to create anticipation and engagement with customers.
 
 ## Business Concept
 
@@ -110,7 +110,7 @@ This is a premium drip coffee brand that combines high-quality coffee with story
 
 ### 완료된 연구 (2025-07-23)
 1. **Day 1**: 드립백 소비자 심리 & 환경별 니즈 분석
-2. **Day 2**: 가챠/수집 심리학 및 메커니즘 설계  
+2. **Day 2**: 뽑기/수집 심리학 및 메커니즘 설계  
 3. **Day 3**: 경쟁사 분석 및 차별화 전략 수립
 4. **Day 4**: 한국 시장 정밀 분석 (시장 규모 2,800억원)
 5. **Day 5**: 메시지 콘텐츠 효과성 정량 분석 (ROI 350-450%)
@@ -119,7 +119,7 @@ This is a premium drip coffee brand that combines high-quality coffee with story
 
 ### 핵심 연구 결과
 - **시장 기회**: ★★★★★ - 연 18.5% 고성장, 블루오션 창조
-- **차별화 포인트**: 메시지 카드 가챠 시스템 (독보적)
+- **차별화 포인트**: 메시지 카드 뽑기 시스템 (독보적)
 - **수익성**: 손익분기점 8-12개월, ROI 350-450%
 - **초기 투자**: 2억 2,000만원 소요
 - **예상 3년 매출**: 60-180억원 (시나리오별)

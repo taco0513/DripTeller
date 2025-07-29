@@ -5,7 +5,7 @@
 ## 🎯 프로젝트 개요
 
 **브랜드 컨셉**: 메시지 카드가 들어있는 프리미엄 드립백 커피
-- 가챠(뽑기) 심리를 활용한 재구매 유도
+- 뽑기 심리를 활용한 재구매 유도
 - 3단계 가격대 전략 (가성비/중급/프리미엄)
 - 타겟: 홈 간편족, 오피스 프리미엄족, 선물 큐레이터족
 
@@ -58,7 +58,7 @@
    - [ ] "convenience coffee consumer psychology" 검색
    - [ ] "premium coffee willingness to pay" 검색
 
-3. **Day 4-6: 가챠/수집 심리학**
+3. **Day 4-6: 뽑기/수집 심리학**
    - [ ] "gacha mechanics consumer psychology" 검색
    - [ ] "collectible marketing engagement" 검색
    - [ ] "message personalization loyalty" 검색
